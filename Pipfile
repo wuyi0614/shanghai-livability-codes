@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+openpyxl = "*"
+
+osgeo = ">=0.0.1"
+geopy = ">=2.1.0"
+geopandas = ">=0.9.0"
+
+shapely = ">=1.7.1"
+scikit-learn = "*"
+scipy = "*"
+
+loguru = "*"
+tqdm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
